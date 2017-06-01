@@ -1,2 +1,2 @@
 # aneuTools
-Tools for geometric analysis, and surface data analysis for image-based modeling of blood vessels.
+ Tools for geometric analysis and pre-processing for image-based modeling of cerebral blood vessels.
