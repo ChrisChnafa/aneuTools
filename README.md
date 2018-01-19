@@ -1,5 +1,5 @@
 # aneuTools
- Tools for geometric analysis and pre-processing for image-based CFD of cerebral blood vessels and aneurysms. 
+ Tools for geometric analysis and pre-processing for image-based CFD of cerebral blood vessels and aneurysms. The method used for the computation of the outlet boundary conditions can be found in the article ["*Better Than Nothing: A Rational Approach for Minimizing the Impact of Outflow Strategy on Cerebrovascular Simulations*"]( https://doi.org/10.3174/ajnr.A5484), Chnafa et al., 2018.
  
  ### :clipboard:  Installation Requirements:  
  
