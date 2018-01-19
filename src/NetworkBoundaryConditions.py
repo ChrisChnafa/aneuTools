@@ -3,14 +3,15 @@
 
 class FlowSplitting(object):
     '''This class computes the flow splitting from a network. See: 
-    C. Chnafa et al., 'Better than Nothing: A Rational Approach for Estimating 
-    Outflow Conditions for Cerebrovascular Models', submitted, 2017, 
-    C. Chnafa et al., 'Improved reduced-order modelling of cerebrovascular flow
-    distribution by accounting for arterial bifurcation pressure drops', 
-    Journal of Biomechanics, 2017, and, 
-    C. Chnafa et al., 'Vessel calibre and flow splitting relationships 
+    'Better than nothing: a rational approach for 
+    minimizing the impact of outflow strategy on cerebrovascular simulations',
+    Am J Neuroradiol, 2018, C. Chnafa et al., 
+    'Improved reduced-order modelling of cerebrovascular 
+    flow distribution by accounting for arterial bifurcation pressure drops', 
+    Journal of Biomechanics, 2017, C. Chnafa et al., and, 
+    'Vessel calibre and flow splitting relationships 
     at the distal bifurcation of  the internal carotid artery', 
-    Physiol Meas., submitted, 2017. '''
+    Physiol Meas., 2017, C. Chnafa et al. '''
     
     def __init__(self):
         self.hasComputedAlphas = False
