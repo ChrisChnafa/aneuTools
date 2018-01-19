@@ -193,7 +193,10 @@ def ComputeGroupRadius(centerline, branchGroupId):
     '''Return the mean radius of a group.
 
     The mean radius is computed using the hydraulic resistance for 
-    the branches of branchGroupId. See Chnafa et al. Journal bio, 2016.
+    the branches of branchGroupId. See  
+    'Improved reduced-order modelling of cerebrovascular 
+    flow distribution by accounting for arterial bifurcation 
+    pressure drops', Journal of Biomechanics, 2017, C. Chnafa et al.
 
     '''
     groupRadius = 0.0
@@ -232,7 +235,6 @@ def ComputeLocalGroupRadius(centerline, branchGroupId, nDiameter):
     '''Return the local radius of a group.
 
     The local radius is computed at nDiameters after the bifurcation. 
-    See Chnafa et al. XXXX, 2016.
 
     '''
     groupRadius = 0.0
